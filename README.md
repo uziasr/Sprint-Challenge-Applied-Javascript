@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+DOM is the document object model. Document refers to the the Entire html and object model refers to how it can be manipulated using JavaScript. This is especially useful because it can be updated without being refreshed!
+
 2. What is an event?
+
+An event is anyway a user can interact with a web page. Clicking, scrolling, resizing windows, hovering, etc., are all examples of events.
 
 3. What is an event listener?
 
+An event listener is the way a browser responds to events. Event listeners will perform actions when a unique event is performed from the user! 
+
 4. Why would we convert a NodeList into an Array?
 
+Converting a NodeList into an Array is useful because NodeLists do not have the same amount of flexibility and methods as an Array. In this case, a lot can be done with the data in a NodeList using Array tools.
+
 5. What is a component?
+
+A component is a function of code that is written to the document and that is very reusable. The most common of example of where component are best used is for cards. Cards all have the same structure and styling with only unique information to differentiate one from another. That being said, it is crucial to understand the data before structuring a component. 
 
 ### Git Set up
 
@@ -51,11 +61,11 @@ Your finished project must include all of the following requirements:
 
 * [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
+* [x] Following the instructions in the `Header/index.js` file, create the Header component. 
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [x] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [x] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
 ## Stretch Problems
 
