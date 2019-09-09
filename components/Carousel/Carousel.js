@@ -46,9 +46,12 @@ function carouselPlease(){
   carousel.appendChild(img4)
   carousel.appendChild(rightButton)
 
-  // leftButton.addEventListener('click', e=>{
-
-  // })
+  leftButton.addEventListener('click', e=>{
+    console.log('hello')
+  })
+  rightButton.addEventListener('click', e=>{
+    console.log('hey' )
+  })
 
   return carousel
 }
